@@ -1,0 +1,44 @@
+#container {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#search {
+    background: #f9a66c;
+    padding: 20px;
+    color: #4a6163;
+    display: flex;
+    margin: 0 auto;
+}
+
+#search label {
+    margin: 0 20px 0 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#search input {
+    width: 400px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+#results {
+    background-color: #298d91d3;
+    padding: 20px;
+    display: block;
+    margin-top: 0;
+}
+
+#results .name {
+    background-color: #f17a7e;
+    margin-bottom: 10px;
+    padding: 15px;
+    list-style: none;
+    color: #f9faf4;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 5px;
+}
